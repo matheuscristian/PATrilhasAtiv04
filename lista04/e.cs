@@ -10,7 +10,7 @@ public class HelloWorld
         Console.Write("Digite sua idade: ");
         idade = int.Parse(Console.ReadLine());
         
-        Console.Write("Digite seu nome? (Sim/Nao): ");
+        Console.Write("Digite seu nome: ");
         tem_carteira = Console.ReadLine().Trim().ToLower();
         
         if (tem_carteira.Length > 3 && idade >= 18) {
